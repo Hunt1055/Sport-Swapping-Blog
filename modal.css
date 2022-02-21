@@ -1,0 +1,43 @@
+.mBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mInner {
+    z-index: 1001;
+    max-width: 1200px;
+    position: fixed;
+    top: 20%;
+    width: 100vw;
+    height: 60vh;
+    opacity: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 50px;
+    border: #6D6D6D solid 1px;
+}
+
+iframe {
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    margin-top: 1%;
+}
+
+.mInner svg {
+    width: 30px;
+    height: 30px;
+    right: 0;
+    margin: 1% 2% 0 0;
+}
+
+.close {
+    cursor: pointer;
+}
