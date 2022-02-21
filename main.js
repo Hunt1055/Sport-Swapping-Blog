@@ -64,7 +64,7 @@ function getCookie(cname) {
     let theme = getCookie("theme");
     if (theme == "Snow") {
         switchSwitchesR();
-    } else {
+    } else if (theme == "Skate") {
         switchSwitchesL();
     }
   }
